@@ -1,0 +1,13 @@
+# Shell/Python scripts must be LF so they run on macOS/Linux
+*.sh   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# Windows batch files keep CRLF
+*.bat  text eol=crlf
+
+# Binary assets
+*.task binary
+*.xlsx binary

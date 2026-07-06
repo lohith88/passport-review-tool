@@ -1,0 +1,40 @@
+# ---- Real PII data: NEVER commit ----
+passports/
+passports_output/
+*.xlsx
+~$*.xlsx
+*.xls
+
+# ---- Virtual environment ----
+.venv/
+venv/
+env/
+
+# ---- Downloaded models (re-downloaded by setup_local_models.py) ----
+models/*.task
+.paddlex/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Logs / temp / backups / test scratch ----
+*.log
+*.bak
+_selftest/
+_iso/
+_f6/
+_ftest/
+_etest*/
+_pdftest/
+_fatest/
+_xtest/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
