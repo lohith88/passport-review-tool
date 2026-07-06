@@ -17,8 +17,8 @@ brew install python@3.11 git tesseract
 ## 2. Clone
 
 ```bash
-git clone https://github.com/lohith88/<REPO-NAME>.git
-cd <REPO-NAME>
+git clone https://github.com/lohith88/passport-review-tool.git
+cd passport-review-tool
 ```
 
 ## 3. Set up the environment (one time, needs internet)
